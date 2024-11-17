@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"錢:)"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "parkour",
+		"description": "jump cooler",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "81ef81cd-bff0-4065-9c15-b3d352f594ab",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "73bbe73d-ce73-46f4-b708-8df996327551",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f7dfd910-0b9e-4f27-a9f6-c5755568375d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

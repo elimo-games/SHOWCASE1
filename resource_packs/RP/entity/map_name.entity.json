@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myname:map_name",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/map_name"
+			},
+			"geometry": {
+				"default": "geometry.map_name"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#b2af38",
+				"overlay_color": "#90797d"
+			}
+		}
+	}
+}

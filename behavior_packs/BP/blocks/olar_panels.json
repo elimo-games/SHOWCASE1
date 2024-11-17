@@ -1,0 +1,17 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "PARCORE:olar_panels"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.olar_panels",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "PARCORE_olar_panels",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

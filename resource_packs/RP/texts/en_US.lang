@@ -1,0 +1,9 @@
+item.spawn_egg.entity.costom:guild_man.name=Spawn sim
+entity.costom:guild_man.name=sim
+item.spawn_egg.entity.costom:walk_to_target.name=Spawn target
+entity.costom:walk_to_target.name=target
+entity.myname:persent.name=persent
+item.spawn_egg.entity.myname:persent.name=Spawn persent
+entity.myname:map_name.name=map_name
+item.spawn_egg.entity.myname:map_name.name=Spawn map_name
+item.costom:camera_item=過場動畫

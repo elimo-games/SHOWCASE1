@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.skins.sleeping": {
+			"initial_state": "third_person",
+			"states": {
+				"third_person": {
+					"animations": [
+						"humanoid_base_pose",
+						{
+							"sleeping": "query.is_sleeping"
+						}
+					]
+				}
+			}
+		}
+	}
+}

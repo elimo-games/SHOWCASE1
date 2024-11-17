@@ -1,0 +1,71 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"me"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "costom",
+		"description": "costom blocks entity and npc",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "f01d1fdd-7d35-4e06-853a-b3d4446aa172",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "80a29e17-3d58-4dff-874a-f2102ff7d5bc",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "56efcd53-452e-45f7-84d3-ef263fbe2db7",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "685ae81b-966f-46ee-8147-102ef7f6d181",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

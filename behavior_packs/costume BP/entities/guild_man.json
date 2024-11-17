@@ -1,0 +1,158 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "costom:guild_man",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"costom:guild_man_baby": {
+				"minecraft:is_baby": {},
+				"minecraft:scale": {
+					"value": 0.5
+				},
+				"minecraft:movement": {
+					"value": 0.35
+				}
+			},
+			"costom:guild_man_adult": {
+				"minecraft:movement": {
+					"value": 0.23
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"guild_man"
+					],
+					"seats": {
+						"position": [
+							0,
+							1.1,
+							-0.35
+						],
+						"lock_rider_rotation": 0
+					}
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 2,
+					"speed_multiplier": 1.25,
+					"target_dist": 0,
+					"track_target": true
+				}
+			},
+			"costom:guild_man_jockey": {
+				"minecraft:behavior.find_mount": {
+					"priority": 1,
+					"within_radius": 16
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"guild_man"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/guild_man.json"
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 380,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"costom:guild_man_adult"
+							]
+						}
+					},
+					{
+						"weight": 17,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"costom:guild_man_baby"
+							]
+						}
+					},
+					{
+						"weight": 3,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"costom:guild_man_baby",
+								"costom:guild_man_jockey"
+							]
+						}
+					}
+				]
+			},
+			"costom:as_adult": {
+				"add": {
+					"component_groups": [
+						"costom:guild_man_adult"
+					]
+				}
+			},
+			"costom:as_baby": {
+				"add": {
+					"component_groups": [
+						"costom:guild_man_baby"
+					]
+				}
+			}
+		}
+	}
+}

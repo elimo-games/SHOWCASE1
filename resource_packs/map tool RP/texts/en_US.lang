@@ -1,0 +1,3 @@
+tile.PARCORE:olar_panels.name=太陽能板
+item.spawn_egg.entity.PARCORE:billbord.name=Spawn 廣告板
+entity.PARCORE:billbord.name=廣告板

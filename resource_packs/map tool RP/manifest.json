@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"bridge."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "PARCORR",
+		"description": "",
+		"min_engine_version": [
+			1,
+			20,
+			60
+		],
+		"uuid": "517bb8b9-4348-4da6-b670-8c4b9a00765d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "3ddba8e8-f9f6-405e-9f79-12db5ea8562a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "182d6185-8165-46bb-a554-dd6424192b80",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.skins.sleeping": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						-90,
+						0,
+						0
+					],
+					"position": [
+						0,
+						1,
+						-15
+					]
+				},
+				"head": {
+					"rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

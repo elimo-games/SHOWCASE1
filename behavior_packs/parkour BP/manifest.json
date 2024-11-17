@@ -1,0 +1,71 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"錢:)"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "parkour",
+		"description": "jump cooler",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "f7dfd910-0b9e-4f27-a9f6-c5755568375d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "9aa694e7-25c8-47d4-a2ab-6d2274fcf3a3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e41a0e19-8160-4bec-9dbb-914071796752",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "81ef81cd-bff0-4065-9c15-b3d352f594ab",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

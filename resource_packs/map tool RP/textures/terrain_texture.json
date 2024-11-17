@@ -1,0 +1,11 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "PARCORR",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"PARCORE_olar_panels": {
+			"textures": "textures/blocks/texture"
+		}
+	}
+}

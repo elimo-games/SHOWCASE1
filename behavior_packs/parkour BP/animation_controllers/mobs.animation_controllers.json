@@ -1,0 +1,21 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.humanoid.parkour": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"active": "query.foo"},
+						{"active": ""}
+					]
+				},
+				"active": {
+					"animations": ["climb"],
+					"transitions": [
+						{"default": "!query.foo"}
+					]
+				}
+			}
+		}
+	}
+}

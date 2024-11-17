@@ -1,0 +1,153 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.olar_panels",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								6,
+								0,
+								6
+							],
+							"size": [
+								1,
+								10,
+								1
+							],
+							"uv": [
+								14,
+								1
+							]
+						},
+						{
+							"origin": [
+								-7,
+								0,
+								6
+							],
+							"size": [
+								1,
+								10,
+								1
+							],
+							"uv": [
+								14,
+								1
+							]
+						},
+						{
+							"origin": [
+								-7,
+								0,
+								-7
+							],
+							"size": [
+								1,
+								5,
+								1
+							],
+							"uv": [
+								1,
+								1
+							]
+						},
+						{
+							"origin": [
+								6,
+								0,
+								-7
+							],
+							"size": [
+								1,
+								5,
+								1
+							],
+							"uv": [
+								1,
+								1
+							]
+						},
+						{
+							"origin": [
+								-9,
+								7,
+								-9
+							],
+							"size": [
+								18,
+								1,
+								18
+							],
+							"pivot": [
+								0,
+								8.5,
+								0
+							],
+							"rotation": [
+								20,
+								0,
+								0
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-7,
+								0,
+								-6
+							],
+							"size": [
+								1,
+								1,
+								12
+							],
+							"uv": [
+								5,
+								67
+							]
+						},
+						{
+							"origin": [
+								6,
+								0,
+								-6
+							],
+							"size": [
+								1,
+								1,
+								12
+							],
+							"uv": [
+								5,
+								67
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

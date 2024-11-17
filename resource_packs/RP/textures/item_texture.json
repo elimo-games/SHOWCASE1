@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "costom",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"costom_camera_item": {
+			"textures": "textures/ui/camera-yo.png"
+		}
+	}
+}
