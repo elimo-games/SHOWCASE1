@@ -1,4 +1,4 @@
-console.warn('js以重製')
+console.warn('js以重製a')
 import { world, system } from "@minecraft/server"
 import * as ui from "@minecraft/server-ui"
 import { run } from "system/run_parkour"

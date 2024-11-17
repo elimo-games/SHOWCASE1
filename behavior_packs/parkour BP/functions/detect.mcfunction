@@ -22,7 +22,6 @@ execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:cr
 execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:dark_oak_fence run scoreboard players set @s fence 1
 execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:mangrove_fence run scoreboard players set @s fence 1
 execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:nether_brick_fence run scoreboard players set @s fence 1
-execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:pale_oak_fence run scoreboard players set @s fence 1
 execute anchored feet as @a at @s rotated ~ 0 if block  ^ ^0.5 ^0.3 minecraft:air run scoreboard players set @s fence 0
 # sidewall part
 execute as @a at @s rotated ~ 0 unless block ^0.7 ^0.5 ^ minecraft:air run scoreboard players set @s sidewallleftdown 1

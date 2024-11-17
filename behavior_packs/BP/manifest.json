@@ -21,7 +21,7 @@
 			20,
 			60
 		],
-		"uuid": "182d6185-8165-46bb-a554-dd6424192b80",
+		"uuid": "b9fe8823-e1df-4db8-9d00-ba98c1ad0863",
 		"version": [
 			1,
 			0,
@@ -31,7 +31,7 @@
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "82420a6a-d0db-4e8e-98b1-6ad2b558bb33",
+			"uuid": "8c7e18f5-9893-46c3-9d3c-97406d01ee89",
 			"version": [
 				1,
 				0,
@@ -41,7 +41,7 @@
 		{
 			"type": "script",
 			"language": "javascript",
-			"uuid": "5095ae86-4cd8-4abf-807d-d0bd2e9bf920",
+			"uuid": "91f3b178-9dec-4a0f-bd08-aeb39d2c2da7",
 			"entry": "scripts/main.js",
 			"version": [
 				1,

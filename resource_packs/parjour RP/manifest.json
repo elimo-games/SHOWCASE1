@@ -21,7 +21,7 @@
 			20,
 			50
 		],
-		"uuid": "81ef81cd-bff0-4065-9c15-b3d352f594ab",
+		"uuid": "dc436ea9-ef4e-4020-a9f6-32e4d370d7ef",
 		"version": [
 			1,
 			0,
@@ -31,7 +31,7 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "73bbe73d-ce73-46f4-b708-8df996327551",
+			"uuid": "9702ae6a-2968-4cfe-a3b9-00f3b1baa1c7",
 			"version": [
 				1,
 				0,
@@ -41,7 +41,7 @@
 	],
 	"dependencies": [
 		{
-			"uuid": "f7dfd910-0b9e-4f27-a9f6-c5755568375d",
+			"uuid": "656cee51-0a38-4a46-b4ab-f518b9c21b67",
 			"version": [
 				1,
 				0,
